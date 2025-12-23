@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="  width=device-width, initial-scale=1.0">
+    <title>‍</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            overflow-y: auto;
+            background: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+
+        /* বাটন এখন ফিক্সড নয় - ভিডিওর নিচে সেন্টারে স্থির থাকবে */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin: 40px auto;
+            max-width: 800px;
+            opacity: 0;
+            animation: fadeIn 2s forwards 1.8s;
+        }
+        .telegram-button {
+            padding: 14px 40px;
+            background: linear-gradient(45deg, #0088cc, #00bfff);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 20px;
+            font-weight: bold;
+            box-shadow: 0 6px 20px rgba(0, 136, 204, 0.4);
+            transition: all 0.3s ease;
+        }
+        .telegram-button:hover {
+            background: linear-gradient(45deg, #006699, #0099cc);
+            transform: scale(1.08);
+        }
+
+        /* ভিডিও কন্টেইনার */
+        .video-container {
+            width: 90%;
+            max-width: 800px;
+            height: 50vh;
+            background: #f0f0f0;
+            margin: 50px auto 20px; /* উপরে কম মার্জিন, যাতে বাটন ভিডিওর কাছাকাছি থাকে */
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            animation: fadeIn 2s forwards 1s;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* কন্টেন্ট সেকশন */
+        .content {
+            padding: 30px;
+            text-align: center;
+            max-width: 800px;
+            margin: 20px auto;
+            opacity: 0;
+            animation: fadeIn 2s forwards 1.5s;
+        }
+        .content h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #0088cc;
+        }
+
+        /* অ্যাড কন্টেইনার */
+        .ad-container {
+            margin: 40px auto;
+            text-align: center;
+            max-width: 800px;
+            padding: 20px;
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+        .ad-container:nth-child(1) { animation-delay: 2s; }
+        .ad-container:nth-child(2) { animation-delay: 2.5s; }
+        .ad-container:nth-child(3) { animation-delay: 3s; }
+
+        /* অ্যানিমেশন */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ভিডিও কন্টেইনার -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/u1ui9LqT0ik?autoplay=0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+    </div>
+
+    <div class="button-container">
+        <a href="https://t.me/NoveEntertainment" target="_blank" class="telegram-button">CLICK HERE 👈</a>
+    </div>
+
+    <!-- কন্টেন্ট সেকশন -->
+    <div class="content">
+        <h2>‍</h2>
+        <p>‍</p>
+    </div>
+
+    <!-- অ্যাড ১ -->
+    <div class="ad-container">
+        <script async="async" data-cfasync="false" src="https://pl28301409.effectivegatecpm.com/684204fb63864fd9461ad64da404f2a7/invoke.js"></script>
+        <div id="container-684204fb63864fd9461ad64da404f2a7"></div>
+    </div>
+
+    <!-- অ্যাড ২ -->
+    <div class="ad-container">
+        <script src="https://pl28301404.effectivegatecpm.com/0e/13/24/0e132400daab82c1ccda12eae6977466.js"></script>
+    </div>
+
+    <!-- অ্যাড ৩ -->
+    <div class="ad-container">
+        <script src="https://pl28301401.effectivegatecpm.com/af/e3/b8/afe3b8c354ed2a5e8b0d1f8ebd16c09b.js"></script>
+    </div>
+
+</body>
+</html>
